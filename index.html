@@ -587,6 +587,17 @@
                 premium_url: "https://zufile.com/download/EdqmhrqglV"
             }
         ];
+
+        let apps = JSON.parse(localStorage.getItem('apps_db')) || [
+            { 
+                id: 101, 
+                name: "DeltaVN V10", 
+                size: "122 MB", 
+                update: "23/4/2026", 
+                url: "https://www.mediafire.com/file/ajbxwhl1nec4sc2/DeltaVN_2.714.1077_1775740535.ipa/file",
+                premium_url: "https://www.mediafire.com/file/ajbxwhl1nec4sc2/DeltaVN_2.714.1077_1775740535.ipa/file"
+            }
+        ];
         
                let validKeys = JSON.parse(localStorage.getItem('premium_keys_db')) || {};
         // Lưu trữ danh sách email đã kích hoạt premium vĩnh viễn
